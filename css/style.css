@@ -79,8 +79,6 @@ p {
 
 /* ============================== Navbar Part css Start =============================== */
 
-#navbar {}
-
 #navbar .logo {
     width: 20%;
     float: left;
@@ -109,3 +107,72 @@ p {
     color: #0872b9;
 }
 
+/* ========================= banner Part css Start ======================== */
+
+#banner {
+    background: url(../images/bannner.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 88px;
+    padding-bottom: 88px;
+    position: relative;
+}
+
+#banner::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#banner .banner-text {
+    position: relative;
+    z-index: 99;
+    text-align: right;
+}
+
+#banner .banner-text h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#banner .banner-text h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#banner .banner-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 24px;
+    padding-left: 700px;
+    padding-bottom: 18px;
+}
+
+#banner .banner-text a {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 9px 16px;
+    margin-left: 20px;
+    transition: 0.4s;
+}
+
+#banner .banner-text a:hover {
+    background: #0872b9;
+    border: 1px solid #0872b9;
+}
