@@ -1,0 +1,79 @@
+/* common css */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* ============================= social link Part css Start ========================= */
+
+#social-links {
+    padding-top: 11px;
+    padding-bottom: 10px;
+    background: #0872b9;
+}
+
+#social-links .welcome-text {
+    width: 20%;
+    float: left;
+}
+
+#social-links .social-icons {
+    width: 80%;
+    float: left;
+    text-align: right;
+}
+
+#social-links .welcome-text h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #e7e7e7;
+}
+
+
+#social-links .social-icons i {
+    color: #fff;
+    padding-left: 25px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#social-links .social-icons i:hover {
+    color: #2c4760;
+}
+
