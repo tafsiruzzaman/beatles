@@ -223,3 +223,96 @@ p {
     color: #555555;
     padding-top: 25px;
 }
+
+
+/*  ========================= Service Part css Start ========================== */
+
+#service {
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+#service .service-head {
+    margin-bottom: 70px;
+}
+
+#service .service-item {
+    width: 376px;
+    float: left;
+    margin-right: 20px;
+    background: #f1f1f1;
+    text-align: center;
+    position: relative;
+    transition: all linear 0.4s;
+}
+
+#service .service-item:hover {
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#service .service-item:hover .service-icon {
+    background: #5bc5f4;
+}
+
+
+#service .service-item h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #353535;
+    padding-top: 40px;
+}
+
+#service .service-item p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #555555;
+    line-height: 24px;
+    padding: 20px;
+}
+
+#service .service-icon {
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
+    background: #f1f1f1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -35px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: all linear 0.4s;
+}
+
+#service .service-icon::before {
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 70px;
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+    left: -4px;
+    top: -4px;
+    transition: all linear 0.4s;
+}
+
+#service .service-item:hover .service-icon::before {
+    border: 1px solid #5bc5f4;
+}
+
+#service .service-icon::after {
+    position: absolute;
+    content: '';
+    width: 72px;
+    height: 72px;
+    border: 4px solid #fff;
+    left: -8px;
+    top: -8px;
+    border-radius: 50%;
+}
+
+#service .service-item:nth-child(3) {
+    margin-right: 0;
+}
