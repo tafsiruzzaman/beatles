@@ -385,3 +385,97 @@ p {
 #portfolio .port-item:nth-child(4) {
     margin-right: 0;
 }
+
+#team {
+    padding-bottom: 60px;
+    text-align: center;
+    text-align: center;
+}
+
+#team .team-head{
+    margin-bottom: 20px;
+}
+
+#team .team-item {
+    width: 277px;
+    float: left;
+    margin-right: 20px;
+}
+
+#team .team-img img {
+    width: 100%;
+}
+
+#team .team-text {
+    text-align: center;
+}
+
+#team .team-text h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #353535;
+    text-transform: uppercase;
+    padding-top: 2px;
+    transition: all linear 0.4s;
+}
+
+#team .team-text h6 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+}
+
+#team .team-img{
+    position: relative;
+}
+
+#team .team-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+
+#team .team-item:hover .team-overlay{
+    opacity: 1;
+    width: 80px;
+}
+
+#team .team-item:hover .team-text h3{
+    color: #5bc5f4;
+}
+
+#team .team-overlay .team-icon{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#team .team-overlay .team-icon i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    color: #fff;
+    /* background: #5bc5f4; */
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    transition: all linear 0.3s;
+}
+
+#team .team-overlay .team-icon i:hover{
+    background: #5bc5f4;
+    border: 1px solid #5bc5f4;
+}
+
+#team .team-item:nth-child(4){
+    margin-right: 0;
+}
