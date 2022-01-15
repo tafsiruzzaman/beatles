@@ -182,6 +182,7 @@ p {
 #about {
     padding-top: 60px;
     padding-bottom: 60px;
+    text-align: center;
 }
 
 .common-head h2 {
@@ -190,14 +191,18 @@ p {
     font-size: 24px;
     color: #353535;
     text-transform: uppercase;
-    text-align: center;
+    
+}
+
+.common-head{
     position: relative;
+    display: inline-block;
 }
 
 .common-head img {
     position: absolute;
-    /* top: 0; */
-    left: 584px;
+    left: 0;
+    bottom: 0;
 }
 
 #about .about-img {
@@ -206,16 +211,17 @@ p {
     margin-right: 20px;
 }
 
-#about .about-img img{
+#about .about-img img {
     width: 100%;
 }
 
 #about .about-text {
     width: 770px;
     float: left;
+    text-align: left;
 }
 
-#about .about-text p{
+#about .about-text p {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 400;
@@ -314,5 +320,68 @@ p {
 }
 
 #service .service-item:nth-child(3) {
+    margin-right: 0;
+}
+
+/* ======================= Portfolio part css start ======================== */
+
+#portfolio {
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+#portfolio .portfoli-head {
+    margin-bottom: 20px;
+}
+
+#portfolio .port-item {
+    width: 277px;
+    float: left;
+    margin-right: 20px;
+}
+
+#portfolio .port-img img {
+    width: 100%;
+}
+
+#portfolio .port-img {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#portfolio .port-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+
+#portfolio .port-img:hover .port-overlay {
+    opacity: 1;
+    width: 100%;
+}
+
+#portfolio .port-overlay .port-icon {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+}
+
+#portfolio .port-overlay .port-icon i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #5bc5f4;
+    border-radius: 50%;
+    color: #fff;
+}
+
+#portfolio .port-item:nth-child(4) {
     margin-right: 0;
 }
