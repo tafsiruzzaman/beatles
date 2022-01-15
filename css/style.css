@@ -176,3 +176,50 @@ p {
     background: #0872b9;
     border: 1px solid #0872b9;
 }
+
+/* ================================ About Part css Start =============================== */
+
+#about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.common-head h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #353535;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+
+.common-head img {
+    position: absolute;
+    /* top: 0; */
+    left: 584px;
+}
+
+#about .about-img {
+    width: 380px;
+    float: left;
+    margin-right: 20px;
+}
+
+#about .about-img img{
+    width: 100%;
+}
+
+#about .about-text {
+    width: 770px;
+    float: left;
+}
+
+#about .about-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #555555;
+    padding-top: 25px;
+}
