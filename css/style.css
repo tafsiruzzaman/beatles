@@ -77,3 +77,35 @@ p {
     color: #2c4760;
 }
 
+/* ============================== Navbar Part css Start =============================== */
+
+#navbar {}
+
+#navbar .logo {
+    width: 20%;
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar .menu {
+    width: 80%;
+    float: left;
+    text-align: right;
+}
+
+#navbar .menu ul li {
+    display: inline-block;
+    padding-left: 14px;
+}
+
+#navbar .menu ul li a {
+    color: #222;
+    font-size: 14px;
+    line-height: 80px;
+    transition: 0.4s;
+}
+
+#navbar .menu ul li a:hover {
+    color: #0872b9;
+}
+
