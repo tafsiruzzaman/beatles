@@ -479,3 +479,70 @@ p {
 #team .team-item:nth-child(4){
     margin-right: 0;
 }
+
+/* =================== Testimonial Part css Start ======================== */
+
+#testimonial {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#testimonial .test-head {
+    margin-bottom: 30px;
+}
+
+#testimonial .testimonial-item {
+    width: 575px;
+    float: left;
+    margin-right: 20px;
+}
+
+#testimonial .test-text {
+    background: #f1f1f1;
+    margin-top: 40px;
+    position: relative;
+}
+
+#testimonial .test-text::after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #f1f1f1;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+#testimonial .test-text h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #353535;
+    padding-top: 15px;
+}
+
+#testimonial .test-text i {
+    font-size: 12px;
+    color: #5bc5f4;
+}
+
+#testimonial .test-text h5 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #555555;
+}
+
+#testimonial .test-text p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #555555;
+    line-height: 24px;
+    padding: 20px;
+}
+
+#testimonial .testimonial-item:nth-child(2) {
+    margin-right: 0;
+}
