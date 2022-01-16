@@ -546,3 +546,110 @@ p {
 #testimonial .testimonial-item:nth-child(2) {
     margin-right: 0;
 }
+
+/* =================== Footer part css Start ======================== */
+
+#footer {
+    background: #353535;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer .footer-left {
+    width: 585px;
+    float: left;
+}
+
+#footer .footer-right {
+    width: 585px;
+    float: left;
+}
+
+#footer .footer-left .footer-left-one {
+    width: 50%;
+    float: left;
+}
+
+#footer .footer-left .footer-left-one p {
+    color: #fff;
+    margin-top: 5px;
+    padding-right: 30px;
+}
+
+#footer .footer-left .footer-left-two {
+    width: 50%;
+    float: left;
+}
+
+#footer .footer-head h3 {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+#footer .contact {
+    color: #fff;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+
+#footer .contact i {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #5bc5f4;
+    text-align: center;
+    border-radius: 50%;
+    top: 2px;
+    left: -4px;
+}
+
+#footer .contact .text {
+    margin-left: 30px;
+}
+
+
+#footer .footer-right .footer-right-one {
+    width: 40%;
+    float: left;
+}
+
+#footer .footer-right .footer-right-two {
+    width: 60%;
+    float: left;
+}
+
+#footer .footer-right .link-one {
+    width: 50%;
+    float: left;
+}
+
+#link-main div ul li {
+    color: white;
+    padding-bottom: 15px;
+}
+
+#link-main div ul li:hover {
+    color: #5bc5f4;
+    cursor: pointer;
+}
+
+#footer .footer-right .link-two {
+    width: 50%;
+    float: left;
+}
+
+#footer .footer-right .footer-img-item{
+    width: 32%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 2px;
+}
+
+#footer .footer-right .footer-img-item img{
+    width: 100%;
+}
